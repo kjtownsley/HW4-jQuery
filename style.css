@@ -1,0 +1,58 @@
+
+body{
+    background-image: url("https://www.bleedingcool.com/wp-content/uploads/2011/07/return-of-the-jedi-space-battle.jpg");
+    margin-left: 210px;
+    height: 80%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+div{
+	background-color: lightgrey;
+	margin: 10px;
+	width: 50%
+}
+div{
+    padding: 10px;
+    margin-left: 228px;
+    margin-top: 40px;
+    
+}
+h1, h3, span{
+	font-weight: bold;
+	text-align: center;
+}
+h1{
+	font-size: 30pt;
+}
+ol{
+	list-style: decimal inside; 
+}
+
+div.header {
+	background-color: lightgrey;
+}
+div.gems{
+    background-color: black;
+}
+div.header, div.instructions{
+	width: 50%;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+	height: 60px;
+}
+.userTotal{
+	width: 15%;
+	height: 60px;
+}
+.gems{
+	clear: both;
+}
+.tieImage{
+	padding-left: 10px;
+}
+
