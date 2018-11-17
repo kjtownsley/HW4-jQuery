@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+	<meta charset="UTF-8">
+	<title>Battle of Endor</title>
+	<link rel="stylesheet" type="text/css" href="assets/CSS/style.css">
+</head>
+<body>
+	<div class="header">
+		<h1>Battle of Endor</h1>
+	</div>
+	<div class="instructions">
+        <h3>Watch your back, Red 3!</h3>
+        <hr>
+		</br>
+		<ul>
+			<li>There's a squadron of Tie Fighters heading for the medical frigate!</li>
+			<li>Click on a Tie Fighter to score!</li>
+			<li>Match the winning number to protect the fleet!</li>
+            <li>If you go above the winning number, you lose!</li>
+            <li>May the force be with you!</li>
+        </ul>
+        
+         <hr>
+        <div id="musicControls" class="text-center">
+            <button class="btn btn-warning btn-xs theme-button">
+            <span class="fa fa-music"></span>Lock S-foils in attack position!</button>
+         </div>
+	</div>
+	<div class="numberToMatch">
+		<h2>Winning number:
+			<span id= "randomNumber"></span>
+		</h2>
+	</div>
+	<div class="winsAndLosses">
+		<h2>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h2>
+	</div>
+	<div class="gems">
+		<img src="https://cdnb.artstation.com/p/assets/images/images/007/526/315/large/ansel-hsiao-tf26.jpg?1506725163" id="one" alt="Tie Fighter" height="150px" width="150px">
+		<img src="https://vignette.wikia.nocookie.net/starwars/images/e/e8/TIEinterceptor_bf.jpg/revision/latest?cb=20070113135746" class=tieImage id="two" alt="Tie Interceptor" height="150px" width="150px">
+		<img src="http://media.comicbook.com/2017/01/tiebomber-223799.jpg" class=tieImage id= "three" alt="Tie Bomber" height="150px" width="150px">
+		<img src="https://the-gadgeteer.com/wp-content/uploads/2018/01/propel-starwarstieadvancedx1drone-01a.jpg" class=tieImage id= "four" alt="Tie Advanced" height="150px" width="150px">
+	</div>
+	<div class="userTotal">
+		<h2>Your total score is:
+			<span id="finalTotal"></span>
+		</h2>
+	</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="assets/Javascript/javascript.js"></script>
+</body>
+</html>
