@@ -20,7 +20,6 @@ $( document ).ready(function(){
   
   function reset(){
         Random=Math.floor(Math.random()*101+19);
-        console.log(Random)
         $('#randomNumber').text(Random);
         num1= Math.floor(Math.random()*11+1);
         num2= Math.floor(Math.random()*11+1);
@@ -54,8 +53,7 @@ $( document ).ready(function(){
   }
   
     $('#one').on ('click', function(){
-      userTotal = userTotal + num1;
-      console.log("New userTotal= " + userTotal);
+      userTotal = userTotal + num1;  
       $('#finalTotal').text(userTotal); 
             
           if (userTotal == Random){
@@ -66,8 +64,7 @@ $( document ).ready(function(){
           }   
     })  
     $('#two').on ('click', function(){
-      userTotal = userTotal + num2;
-      console.log("New userTotal= " + userTotal);
+      userTotal = userTotal + num2;  
       $('#finalTotal').text(userTotal); 
           if (userTotal == Random){
             yay();
@@ -77,8 +74,7 @@ $( document ).ready(function(){
           } 
     })  
     $('#three').on ('click', function(){
-      userTotal = userTotal + num3;
-      console.log("New userTotal= " + userTotal);
+      userTotal = userTotal + num3;  
       $('#finalTotal').text(userTotal);
   
             if (userTotal == Random){
@@ -89,8 +85,7 @@ $( document ).ready(function(){
           } 
     })  
     $('#four').on ('click', function(){
-      userTotal = userTotal + num4;
-      console.log("New userTotal= " + userTotal);
+      userTotal = userTotal + num4;  
       $('#finalTotal').text(userTotal); 
         
             if (userTotal == Random){
