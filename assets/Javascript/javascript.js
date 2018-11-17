@@ -1,3 +1,6 @@
+
+
+
 $( document ).ready(function(){
     var Random=Math.floor(Math.random()*101+19)
    
@@ -29,7 +32,7 @@ $( document ).ready(function(){
 
     
     var audioElement = document.createElement("audio");
-    audioElement.setAttribute("src", "assets/StarWarsBattleTheme.mp3");
+    audioElement.setAttribute("src", "assets/media/StarWarsBattleTheme.mp3");
 
     $(".theme-button").on("click", function() {
         audioElement.play();
